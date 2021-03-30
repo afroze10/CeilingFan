@@ -11,8 +11,8 @@ public class Main {
     public static void main(String[] args) {
         CeilingFanSpeedChain ceilingFanSpeedChain = new CeilingFanSpeedChain();
                 while(true){
-                    System.out.println("Press Enter word 'Pull Cord 1' to change the fan speed");
-                    System.out.println("Press Enter word 'Pull Cord 2' to change the fan direction");
+                    System.out.println("Enter word 'Pull Cord 1' to change the fan speed");
+                    System.out.println("Enter word 'Pull Cord 2' to change the fan direction");
                     String input = getInput();
                     if(input.equals("Pull Cord 1")) {
                         ceilingFanSpeedChain.pull();
